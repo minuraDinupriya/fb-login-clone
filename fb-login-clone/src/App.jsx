@@ -4,10 +4,11 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="row"></div>
+        <div className="row h1 fw-bold mb-3 d-flex justify-content-center text-center" style={{color:"#0398fc"}}>facebook</div>
         <div className="row">
-          <div className="card">
+          <div className="card custom-card" style={{width:'450px',height:'auto'}}>
             <div className="card-body">
+              
               <div className="row">
                 <h5 className="card-title">Log in to Facebook</h5>
               </div>
@@ -32,7 +33,7 @@ function App() {
                 ></input>
               </div>
 
-              <div className="row"></div>
+              
 
               <div className="row mt-3 ">
                 <a href="#" className="btn btn-primary">
@@ -40,18 +41,18 @@ function App() {
                 </a>
               </div>
 
-              <div className="row"></div>
+              <div className="row link-info text-center d-flex justify-content-center mb-2 mt-2">Forgotten acount?</div>
 
-              <div className="row mt-2 ">
-                <a href="#" className="ms-5 btn btn-success w-75 justify-content-center d-flex">
+              <div className="row">
+              <div class="separator">or</div>
+              </div>
+
+              <div className="row mt-2 d-flex justify-content-center">
+                <a href="#" className="text-center btn btn-success w-75 ">
                   Create new account
                 </a>
               </div>
 
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
             </div>
           </div>
         </div>
